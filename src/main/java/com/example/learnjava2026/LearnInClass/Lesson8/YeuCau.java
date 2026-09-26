@@ -37,4 +37,13 @@ public class YeuCau {
         this.moTa = moTa;
         this.mucDoUuTien = mucDoUuTien;
     }
+
+    @Override
+    public String toString() {
+        return "YeuCau{" +
+                "id='" + id + '\'' +
+                ", moTa='" + moTa + '\'' +
+                ", mucDoUuTien=" + mucDoUuTien +
+                '}';
+    }
 }
