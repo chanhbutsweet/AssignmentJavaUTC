@@ -39,4 +39,13 @@ public class Student {
         this.ten = ten;
         this.diemCacMon = diemCacMon;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "ma='" + ma + '\'' +
+                ", ten='" + ten + '\'' +
+                ", diemCacMon=" + diemCacMon +
+                '}';
+    }
 }
